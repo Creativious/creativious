@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          user: creativious
           filename: metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
